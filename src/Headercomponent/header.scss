@@ -1,0 +1,9 @@
+$bg-primary: #551875;
+$bg-primary-2: #591e71;
+$primary-2-light: #4c1064a1;
+$primary-2: #621183;
+
+.navbar__color{
+    background: $bg-primary;
+background: linear-gradient(180deg, $primary-2 3%,$bg-primary 35%, $bg-primary-2 100% ,);
+}

@@ -1,0 +1,9 @@
+$bg-primary: #8233ac;
+$bg-primary-2: #8b33ad;
+$primary-2-light: #ac5fcaa1;
+$primary-2: #783394;
+
+.foot__color{
+    background: $bg-primary;
+background: linear-gradient(180deg, $primary-2 3%,$bg-primary 35%, $bg-primary-2 100% ,);
+}
