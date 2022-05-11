@@ -1,12 +1,33 @@
-.card__color{
-    background-color: white;
+$orange: #fc8162;
+$orange-2: #e08805;
+$primary: #493480;
+$primary-2: #591e71;
+
+
+.card__color {
+  background-color: white;
 }
-.font_size{
-    font-size: 12px;
+.font_size {
+  font-size: 15px;
 }
-.img__icon{
-    border-radius: 100%;
-    // box-shadow: 0.1rem ,0.2rem, 0.1rem solid black;
-    padding: 5px;
-    background-color: aquamarine;
+
+.card__color {
+  background-color: lightblue;
+  background-image: linear-gradient(to right, $orange-2, $primary-2);
+}
+.img__icon {
+  border-radius: 100%;
+ 
+  padding: 25px;
+  background-color: rgb(248, 252, 251);
+  margin-top: -39px;
+}
+.text__size {
+  font-size: 12px;
+}
+.btn__size{
+    border-radius: 25px;
+}
+.avatarcard__color{
+    background-color:$primary-2 ;
 }

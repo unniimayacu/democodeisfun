@@ -1,0 +1,33 @@
+$muted-2: #948E8E;
+$primary-2: #591e71;
+$muted: #e5e5e5;
+$primary: #493480;
+
+.main__col__color{
+    background-color:rgb(241, 224, 245);
+}
+.text__color{
+ color:$primary-2 ;
+}
+.text__size {
+  font-size: 13px;
+   color:$primary-2 ;
+}
+.table__color{
+  background-color: white;
+}
+
+.title__style{
+  color:$primary-2 ;
+}
+.icon__color{
+ color:$primary-2 ;
+font-size: 35px !important;
+}
+//  .material-symbols-outlined {
+//   font-variation-settings:
+//   'FILL' 0,
+//   'wght' 400,
+//   'GRAD' 0,
+//   'opsz' 48
+// }

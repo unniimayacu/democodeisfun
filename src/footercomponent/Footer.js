@@ -8,7 +8,7 @@ function Footer() {
         <div className="row  foot__color p-4">
           <div className=" mx-2 d-flex">
             <p class=" p-2 text-white text-end ">
-              @2022-2023 All Rights reserved
+              © 2022-2023 All Rights reserved
             </p>
             <div className=" d-flex mx-4">
               <p class=" p-2 text-white text-end  ">Terms of service</p>
