@@ -1,26 +1,28 @@
 import React from "react";
+import "./rightsidebar.scss";
+import messageicon from "../Asset/message.svg";
+import Cardslearn from "./Cardslearn";
 
 function Rightsidebar() {
   return (
     <>
-      <div className="row ">
-        <div className="col-3">
-          <div className="card p-2  card__color">
-            <div class="   ">
-              <img class=" img__icon shadow" src={messageicon} alt="" />
-            </div>
-            <div class="card-body">
-              <p class="card-title font_size text-white">
-                Explore Your Messages
-              </p>
-              <div className="">
-                <button className=" btn__size px-5 p-2 btn btn-danger justify-content-center">
-                  Inbox
-                </button>
-              </div>
+      <div class="row py-3 p-2    px-2 shadow border Card__color">
+        <div class="card mt-5 borderless cards__color ">
+          <div class="card-body">
+            <p class=" text-white text-start">Have any Queries</p>
+            <p class=" text-white text-start font__size">
+              {" "}
+              Lorem lpsium is dummy text of {" "}
+            </p>
+            <div className="">
+              <button className="btn btn-danger px-5 p-3 rightsidebarbtn__size">800-499-4769</button>
             </div>
           </div>
         </div>
+        <div>
+          <Cardslearn/>
+        </div>
+        <div className="py-5" ></div>
       </div>
     </>
   );

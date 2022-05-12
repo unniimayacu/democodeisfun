@@ -1,0 +1,32 @@
+.Card__color{
+    background-color: white;
+}
+.rightsidebarbtn__size{
+    border-radius: 30px;
+    font-size: 13px;
+}
+.font__size{
+    font-size: small;
+}
+.cards__color{
+    
+    // border-radius: 100% 100% 0 0 / 20% 20% 0 0;
+background: rgb(91,11,102);
+background: linear-gradient(90deg, rgba(91,11,102,1) 34%,
+ rgba(127,38,133,1) 52%, rgba(187,144,68,1) 71%, rgba(200,167,54,1) 81%);
+}
+
+
+.imges__style{
+position: relative;
+}
+.img__style{
+    position: absolute;
+        margin-top: -90px;
+    margin-left: 98px;
+    // z-index: 100px;
+
+}
+.font__size{
+font-size: 12px;
+}

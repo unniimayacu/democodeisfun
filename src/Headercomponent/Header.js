@@ -11,9 +11,9 @@ import Main from "../Maincomponent/Main";
 function header() {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
-          <nav class={`navbar navbar-expand-lg navbar-light navbar__color p-4`}>
+      {/* <div className="container-fluid">
+        <div className="row"> */}
+          <nav class={`navbar navbar-expand-lg navbar-light navbar__color  p-2`}>
             <div class="container-fluid">
               {/* <a class="navbar-brand" href="#">
               codei
@@ -22,7 +22,7 @@ function header() {
                 <img src={navicon} alt="" />
               </div>
 
-              {/* <button
+              <button
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -32,21 +32,21 @@ function header() {
               aria-label="Toggle navigation"
             >
               <span class="navbar-toggler-icon"></span>
-            </button> */}
+            </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-5  mb-lg-0">
                   <div class="d-flex justify-content-start">
                     <div>
                       <input
-                        class="form-control  px-5 p-3 "
+                        class="form-control my-2  px-4 p-2 "
                         type="search"
                         placeholder="Find your course"
                         aria-label="Search"
                       />
                     </div>
                   </div>
-                  <div className="px-2   ">
-                    <button class="btn btn-danger px-5 p-3"> Filter</button>
+                  <div className="mx-2   ">
+                    <button class="btn btn-danger px-4 p-2 my-2"> Filter</button>
                   </div>
 
                   <div class="dropdown  p-3  ">
@@ -106,8 +106,8 @@ function header() {
               </div>
             </div>
           </nav>
-        </div>
-      </div>
+        {/* </div>
+      </div> */}
 
       <div>
        <Main/>
@@ -116,11 +116,39 @@ function header() {
       {/* <div>
         <Leftsidebar />
       </div> */}
-      {/* <div>
+      <div>
       <Footer/>
-      </div> */}
+      </div>
     </>
   );
 }
 
 export default header;
+
+
+// function Example() {
+//   const [show, setShow] = useState(false);
+
+//   const handleClose = () => setShow(false);
+//   const handleShow = () => setShow(true);
+
+//   return (
+//     <>
+//       <Button variant="primary" onClick={handleShow}>
+//         Launch
+//       </Button>
+
+//       <Offcanvas show={show} onHide={handleClose}>
+//         <Offcanvas.Header closeButton>
+//           <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+//         </Offcanvas.Header>
+//         <Offcanvas.Body>
+//           Some text as placeholder. In real life you can have the elements you
+//           have chosen. Like, text, images, lists, etc.
+//         </Offcanvas.Body>
+//       </Offcanvas>
+//     </>
+//   );
+// }
+
+// render(<Example />);

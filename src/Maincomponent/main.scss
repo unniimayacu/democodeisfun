@@ -3,6 +3,29 @@ $primary-2: #591e71;
 $muted: #e5e5e5;
 $primary: #493480;
 
+
+$primary: #493480;
+$primary-2: #591e71;
+$secondary: #ff3972;
+$yellow: #fcd560;
+$purple: #681d78;
+$primary_text: #493480;
+$muted: #e5e5e5;
+$muted-2: #948E8E;
+$bg-primary: #551875;
+$bg-primary-2: #591e71;
+$primary-2-light: #591e71a1;
+$primary-light: #591e718a;
+$orange: #fc8162;
+$orange-2: #E08805;
+$primary-light-2: #D2B9DC;
+$green: #40AE2E;
+$red: #FF3B72;
+$secondary-light: #ff3b728a;
+$white-transparent: rgba(255, 255, 255, 0.456);
+$text-muted: #909090;
+$violet: #944289;
+$pink: rgba(254, 74, 110, 0.2);
 .main__col__color{
     background-color:rgb(241, 224, 245);
 }
@@ -31,3 +54,90 @@ font-size: 35px !important;
 //   'GRAD' 0,
 //   'opsz' 48
 // }
+.Card__color{
+    background-color: white;
+}
+
+
+
+
+
+.cif__select-wrapper {
+    // width: 100%;
+    &>* {
+        font-size: 12px !important;
+        font-weight: 400;
+    }
+}
+
+.cif__select-control {
+    border: none !important;
+    border: 1px solid $primary !important;
+}
+
+.cif__select-list {
+    border: none !important;
+    min-height: 150px;
+}
+
+.cif__select-option {
+    &:hover {
+        background-color: $primary-light !important;
+        color: $primary;
+    }
+}
+
+.cif__select-selected-option {
+    color: $primary;
+    background-color: $primary-light !important;
+}
+
+.cif__select-secondary {
+    color: white !important;
+    background-color: $primary !important;
+}
+
+.cif__select-rounded {
+    border-radius: 50px !important;
+}
+
+.cif__select-wrapper-transparent {
+    background: transparent;
+}
+
+.cif__select-control-transparent {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.cif__select-option-transparent {
+    border: 1px solid transparent;
+    background-color: none !important;
+    &:hover {
+        border: 1px solid $secondary;
+        background-color: none;
+        background: transparent !important;
+    }
+}
+
+.cif__select-selected-option-transparent {
+    background-color: none !important;
+}
+
+// styles for underlined type
+.cif__select_underlined_wrapper {
+    border: none !important;
+    border-bottom: 1px solid  $muted !important;
+}
+
+.cif__select_underlined_control {
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid gray !important;
+    border-radius: 0 !important;
+    .dd__selectedItem {
+        font-size: 13px;
+        font-weight: 400;
+    }
+}

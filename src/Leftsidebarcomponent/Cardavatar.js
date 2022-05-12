@@ -17,7 +17,7 @@ function Cardavatar() {
               <Image src={avatargreen} />
             </div>
           </div>
-          <div className="p-3">
+          <div className="col-12 p-3">
             <button className=" btn__size px-5 p-2 btn btn-outline-danger text-white justify-content-center">
               Messager
             </button>
