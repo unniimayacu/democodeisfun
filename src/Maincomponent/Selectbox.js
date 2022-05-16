@@ -19,7 +19,10 @@ function Selectbox(props) {
     options,
     multiple = false,
     searchable = false,
+    
     ...rest
+    
+
   } = props;
   const [val, setVal] = useState(defaultValue);
 
@@ -56,7 +59,7 @@ function Selectbox(props) {
   const renderIcon = (isOpen) => {
     return (
       <span class="material-icons">
-        {isOpen ? "Select student " : "keyboard_arrow_down"}
+        {isOpen ? "select student name " : " select student name"}
       </span>
     );
   };
@@ -71,6 +74,7 @@ function Selectbox(props) {
         multiple={multiple}
         searchable={searchable}
         {...rest}
+        
       />
 
 

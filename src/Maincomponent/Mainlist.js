@@ -6,7 +6,7 @@ import strengthen from "../Asset/strengthsIcon.svg"
 function Mainlist() {
   return (
     <>
-      <div className="">
+      <div className="p-3">
         <div className="d-flex ">
           <img src={improvement} />
           <h6 className="mx-2 ">Improvement</h6>

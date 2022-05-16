@@ -3,12 +3,12 @@
 }
 .rightsidebarbtn__size{
     border-radius: 30px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .font__size{
     font-size: small;
 }
-.cards__color{
+.rightcards__color{
     
     // border-radius: 100% 100% 0 0 / 20% 20% 0 0;
 background: rgb(91,11,102);
@@ -30,3 +30,9 @@ position: relative;
 .font__size{
 font-size: 12px;
 }
+
+ @media only screen and(max-width: 425px){
+     .rightside__bar__row{
+ display: none;
+     }
+ }

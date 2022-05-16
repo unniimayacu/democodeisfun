@@ -7,3 +7,10 @@ $primary-2: #783394;
     background: $bg-primary;
 background: linear-gradient(180deg, $primary-2 3%,$bg-primary 35%, $bg-primary-2 100% ,);
 }
+
+@media only screen and(max-width: 425px){
+     .foot__text{
+         font-size: 7px;
+     }
+    
+ }

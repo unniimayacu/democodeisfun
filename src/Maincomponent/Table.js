@@ -15,6 +15,8 @@ function Table() {
                 </div> */}
                 </div>
                 </div>
+
+                
     </div>
   )
 }

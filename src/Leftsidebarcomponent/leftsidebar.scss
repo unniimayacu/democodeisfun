@@ -31,3 +31,8 @@ $primary-2: #591e71;
 .avatarcard__color{
     background-color:$primary-2 ;
 }
+@media only screen and(max-width: 425px){
+     .leftside__bar__row{
+ display: none;
+     }
+ }

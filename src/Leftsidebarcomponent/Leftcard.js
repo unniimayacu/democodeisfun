@@ -15,7 +15,7 @@ function Leftcard() {
         <div class="card-body">
           <p class="card-title font_size text-white">Explore Your Messages</p>
           <div className="  justify-content-center">
-            <button className=" btn__size px-5 p-2 btn btn-danger ">
+            <button className=" btn__size px-5 p-2 btn btn-danger text-lg ">
               Inbox
             </button>
           </div>

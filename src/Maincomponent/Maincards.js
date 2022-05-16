@@ -8,13 +8,13 @@ function Maincards(props) {
 
   return (
     <>
-      <div className="card px-5 p-3  border border-3 ">
+      <div className="card px-5 p-3  border border-3 main__cards__color ">
         <div class=" ">
           <img src={imge} alt="" />
         </div>
         <div class="card-body">
-          <p class="card-title font_size">{title} </p>
-          <p class="card-title font_size">{subtitle} </p>
+          <p class="card-title font_size  main__cards__color   ">{title} </p>
+          <p class="card-title font_size  main__cards__color ">{subtitle} </p>
         </div>
       </div>
     </>

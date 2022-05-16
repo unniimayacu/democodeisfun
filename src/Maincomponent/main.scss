@@ -141,3 +141,24 @@ font-size: 35px !important;
         font-weight: 400;
     }
 }
+@media only screen and(max-width: 425px){
+     .main__select__box{
+ display: none;
+     }
+     .main__cards__color{
+         background-color: #591e71;
+         color: white;
+     }
+     .search__text{
+         border-radius:20px;
+     }
+   
+ }
+@media only screen and(min-width: 1024px){
+   .selctdate__main{
+   display: none;
+     }
+     .search__text{
+         display: none;
+     }
+    }

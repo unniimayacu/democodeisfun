@@ -9,53 +9,53 @@ function Leftsidebar() {
   return (
     <>
       {/* <div class="container-fluid"> */}
-        {/* <div class="col-3 mt-0  "> */}
-          <div class="row py-3 p-0 ms-0 px-0 shadow border Card__color">
-            <div class="col-6">
-              <div className="">
-                <img src={homeimg} />
-              </div>
-              <div className="p-2">
-                {" "}
-                <p class=" text__size">Home</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div className="">
-                <img src={homeimg} />
-              </div>
-              <div className="p-2">
-                {" "}
-                <p class="text__size ">Student Records</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div className="">
-                <img src={homeimg} />
-              </div>
-              <div className="p-2 ">
-                {" "}
-                <p class="text__size"> Progress Reports</p>
-              </div>
-            </div>
-            <div class="col-6">
-              <div className="">
-                <img src={homeimg} />
-              </div>
-              <div className="p-2 ">
-                {" "}
-                <p class="text__size"> Referal Status</p>
-              </div>
-            </div>
-            <div class ="py-3"></div>
-            <div>
-              <Leftcard />
-            </div>
-            <div>
-              <Cardavatar/>
-            </div>
+      {/* <div class="col-3 mt-0  "> */}
+      <div class="row   py-5 shadow  Card__color  leftside__bar__row">
+        <div class="col-6">
+          <div className="">
+            <img src={homeimg} />
           </div>
-        {/* </div> */}
+          <div className="">
+            {" "}
+            <p class=" text__size">Home</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div className="">
+            <img src={homeimg} />
+          </div>
+          <div className="p-">
+            {" "}
+            <p class="text__size ">Student Records</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div className="">
+            <img src={homeimg} />
+          </div>
+          <div className="p- ">
+            {" "}
+            <p class="text__size"> Progress Reports</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div className="">
+            <img src={homeimg} />
+          </div>
+          <div className="p- ">
+            {" "}
+            <p class="text__size"> Referal Status</p>
+          </div>
+        </div>
+        <div class="py-3"></div>
+        <div>
+          <Leftcard />
+        </div>
+        <div>
+          <Cardavatar />
+        </div>
+      </div>
+      {/* </div> */}
       {/* </div> */}
     </>
   );
