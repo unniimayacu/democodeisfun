@@ -167,13 +167,13 @@ function Header() {
             </Container>
           </Navbar>
 
-          <div>
+          {/* <div>
             <Main />
           </div>
 
           <div>
             <Footer />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

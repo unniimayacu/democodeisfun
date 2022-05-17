@@ -10,12 +10,18 @@ import Cardslearn from "../Rightsidebarcomponent/Cardslearn";
 import Mainlist from "./Mainlist";
 import Selectdate from "./Selectdate";
 import Search from "./Search";
+import Header from "../Headercomponent/Header";
+import Footer from "../footercomponent/Footer";
 // import { Table } from "react-bootstrap";
 // import Title from "antd/lib/skeleton/Title";
 
 function Main() {
   return (
     <>
+
+    <div>
+      <Header/>
+    </div>
       {/* <div className="container-fluid"> */}
       <div className="row p-0 ">
         <div className="col-xl-2 col-lg-2 col-12">
@@ -147,6 +153,10 @@ function Main() {
         </div>
       </div>
       {/* </div> */}
+
+      <div>
+        <Footer/>
+      </div>
     </>
   );
 }
