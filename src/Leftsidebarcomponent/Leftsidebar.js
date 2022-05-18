@@ -10,7 +10,7 @@ function Leftsidebar() {
     <>
       {/* <div class="container-fluid"> */}
       {/* <div class="col-3 mt-0  "> */}
-      <div class="row   py-5 shadow  Card__color  leftside__bar__row">
+      <div class="row   py-5 shadow  Card__color  leftside__bar__row   leftside__bar__size">
         <div class="col-6">
           <div className="">
             <img src={homeimg} />

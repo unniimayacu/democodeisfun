@@ -36,3 +36,14 @@ $primary-2: #591e71;
  display: none;
      }
  }
+
+//  .leftside__bar__size{
+//  width: 20%;
+//  }
+@media only screen and(max-width: 990px){
+
+   .leftside__bar__size{
+ width: 20%;
+ }
+
+}

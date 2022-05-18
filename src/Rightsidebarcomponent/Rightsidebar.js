@@ -8,7 +8,7 @@ import moneyicon from "../Asset/moneyIcons.svg";
 function Rightsidebar() {
   return (
     <>
-      <div class="row  p-5    px-3 shadow  Card__color  rightside__bar__row">
+      <div class="row  p-5    px-3 shadow  Card__color  rightside__bar__row  right__sidebar__size ">
         <Card className="mt-5  rightcards__color   ">
           <Card.Body>
             <Card.Title className="text-white  text-start  p-0"></Card.Title>
@@ -20,7 +20,7 @@ function Rightsidebar() {
 
             <div className="row">
               <div className="col-12 p-3">
-                <button className=" btn__size px-5 p-2 btn btn-danger text-white justify-content-center rightsidebarbtn__size">
+                <button className=" btn__size px-4 p-2 btn btn-danger text-white justify-content-center rightsidebarbtn__size">
                   800-499-4769
                 </button>
               </div>

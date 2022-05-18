@@ -17,23 +17,28 @@ function Cardslearn() {
               Lorem ipsium is simply dummy text of
             </p>
           </div>
-          <div className="imges__style  p-0">
-            <img src={moneyicon} height={60} />
 
-            <div className="img__style">
-              <img src={moneyicon} height={60} />
+          <div className="row">
+            <div className="col-12 cardslearn__img">
+              <div className="imges__style  p-0">
+                <img src={moneyicon} height={50} />
+              </div>
+              <div className="img__style">
+                <img src={moneyicon} height={50} />
+              </div>
             </div>
           </div>
-       
-          <div className="">
-            <button className=" btn__size px-5 p-3 btn btn-danger text-white justify-content-center">
-              Learn More
-            </button>
+
+          <div className="row">
+            <div className="col-12 d-flex justify-content-center ">
+              <button className=" btn__size px-4 p-2 btn btn-danger text-white ">
+                Learn More
+              </button>
+            </div>
           </div>
         </Card.Body>
       </Card>
     </div>
-    
   );
 }
 

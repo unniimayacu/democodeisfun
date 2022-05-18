@@ -3,6 +3,7 @@ import "./leftsidebar.scss";
 import { Card,Image } from "react-bootstrap";
 import avatarred from "../Asset/ladyAvatarRed.svg"
 import avatargreen from "../Asset/ladyAvatarGreen.svg"
+import avataricon from "../Asset/clockOutlined.svg"
 function Cardavatar() {
   return (
     <>
@@ -11,16 +12,21 @@ function Cardavatar() {
           <Card.Title className="text-white fs-5">
             <p>Connect</p>{" "}
           </Card.Title>
-          <div className="d-flex justify-content-evenly">
+          {/* <div className="d-flex justify-content-evenly">
             <Image src={avatarred} />
             <div>
               <Image src={avatargreen} />
             </div>
+          </div> */}
+          <div>
+            <Image src={avataricon} />
           </div>
-          <div className="col-12 p-3">
-            <button className=" btn__size px-5 p-2 btn btn-outline-danger text-white justify-content-center">
-              Messager
-            </button>
+          <div  className="row py-3" >
+            <div className="col-12  d-flex justify-content-center">
+              <button className=" btn__size px-4 p-2 btn btn-outline-danger text-white ">
+                Messager
+              </button>
+            </div>
           </div>
         </Card.Body>
       </Card>

@@ -163,4 +163,58 @@ font-size: 35px !important;
      }
     }
 
+    .student_recordcard__text{
+        color:$primary_text ;
+        font-weight: 600;
+    }
+    .student__card_size{
+        border-radius: 12px;
+        border-color: #551875;
+    }
+    .student__card_size:hover{
+        background-color:$bg-primary ;
+        color: white;
+    }
+    .course__card__size{
+        border-radius: 10px;
+        background-color:$bg-primary ;
+    }
+    .student__add_but{
+        // background-color:rgb(146, 35, 35);
+        border-radius: 45px;
+    }
+.student__card__icon{
+    font-size: 25px;
+}
+.student__card_size_dotted{
+    border: dotted #551875 ;
+     border-radius: 12px;
+        // border-color: #551875;
+}
+.student__record__icon{
+font-size: 70px;
+font-weight: bold;
+color: #551875;
+}
+.student__record__card{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: solid 5px ;
+    border-color: #eb6b8b ;
+    background-color: white;
+}
+.student_recordcard__text{
+  
+   
+}
+.student__text__font{
+font-size: 10px;
+}
+@media only screen and(max-width: 425px){
+    .studentrecord__direction{
+   flex-direction : column !important;
+    }
+
     
+    }
